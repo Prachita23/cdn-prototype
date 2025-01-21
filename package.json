@@ -1,0 +1,17 @@
+{
+  "name": "cdn-prototype",
+  "version": "1.0.0",
+  "description": "This project is a simple prototype of a Content Delivery Network (CDN) using Node.js. It demonstrates the basic functionality of a CDN, including caching content at an edge server and fetching data from the origin server when necessary.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "node-cache": "^5.1.2"
+  }
+}
