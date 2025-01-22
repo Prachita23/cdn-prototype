@@ -111,8 +111,6 @@ Place additional static files (e.g., more images, videos) in the `static/` folde
 
 - Add support for distributed caching across multiple edge servers.
 - Implement cache invalidation using surrogate keys.
-- Introduce logging for better monitoring and debugging.
-- Support HTTPS for secure communication.
 
 ---
 

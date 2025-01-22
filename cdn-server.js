@@ -18,7 +18,7 @@ app.get("/*", async (req, res) => {
 
   try {
     // Fetch from origin server
-    const originUrl = `http://localhost:4000${req.url}`; // Replace with actual origin URL
+    const originUrl = `http://localhost:4000${req.url}`;
     const response = await axios.get(originUrl, { responseType: "arraybuffer" });
     const data = response.data;
 
